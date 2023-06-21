@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
 import SBSansInterface from './assets/fonts/SB-Sans-Interface.woff2';
 import SBSansInterfaceSemibold from './assets/fonts/SB-Sans-Interface-Semibold.woff2';
 import SBSansInterfaceBold from './assets/fonts/SB-Sans-Interface-Bold.woff2';
@@ -61,4 +61,13 @@ const GlobalStyle = createGlobalStyle`
     padding: 24px;
   }
 `
-export { GlobalStyle };
+const Container = styled.div`
+  width: 900px;
+  height: 704px;
+  margin: auto;
+  background: #FFFFFF;
+  border-radius: 24px;
+  padding: 24px;
+`;
+
+export { GlobalStyle, Container };
