@@ -1,11 +1,8 @@
 import styled from 'styled-components';
 
 const UserPic = styled.div`
-  position: absolute;
   width: 80px;
   height: 80px;
-  left: 24px;
-  top: 25px;
   background: #D5E4F7;
   border-radius: 100px;
   display: flex;

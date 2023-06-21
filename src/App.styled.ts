@@ -58,6 +58,7 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
+    padding: 24px;
   }
 `
 export { GlobalStyle };
