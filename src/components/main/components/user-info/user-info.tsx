@@ -68,7 +68,7 @@ function UserInfo(): JSX.Element {
       <Title>Александр Помещенко</Title>
       <SocialList>
         <SocialItem>
-          <SocialLink href='https://t.me/@tequomo'>Telegram</SocialLink>
+          <SocialLink href='https://t.me/tequomo'>Telegram</SocialLink>
         </SocialItem>
         <SocialItem>
           <SocialLink href='https://github.com/tequomo'>GitHub</SocialLink>

@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Avatar from './components/avatar/avatar';
 import UserInfo from './components/user-info/user-info';
+import MainForm from './components/main-form/main-form';
 
 const Container = styled.div`
   width: 900px;
@@ -29,17 +30,7 @@ function Main(): JSX.Element {
         <Avatar />
         <UserInfo />
       </Header>
-      <section>
-        <form action="">
-          <fieldset>
-            <label htmlFor="">Номер телефона</label>
-            <input type="tel" name="" id="" />
-            <label htmlFor="">Email</label>
-            <input type="email" name="" id="" />
-          </fieldset>
-          <input type="submit" value="Далее" />
-        </form>
-      </section>
+      <MainForm />
     </Container>
   );
 
