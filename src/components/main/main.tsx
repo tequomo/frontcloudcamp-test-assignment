@@ -30,7 +30,15 @@ function Main(): JSX.Element {
         <UserInfo />
       </Header>
       <section>
-
+        <form action="">
+          <fieldset>
+            <label htmlFor="">Номер телефона</label>
+            <input type="tel" name="" id="" />
+            <label htmlFor="">Email</label>
+            <input type="email" name="" id="" />
+          </fieldset>
+          <input type="submit" value="Далее" />
+        </form>
       </section>
     </Container>
   );
