@@ -25,7 +25,16 @@ const StepperItem = styled.li`
     height: 16px;
     border-radius: 50%;
     margin: 1rem auto 0;
-    background-color: #000000;
+    background-color: #A6A6A6;
+  }
+  &:not(:last-child)::after {
+    content: "";
+    position: relative;
+    top: 1.5rem;
+    left: 50%;
+    height: 2px;
+    background-color: #e0e0e0;
+    order: -1;
   }
 `;
 
