@@ -1,20 +1,11 @@
-import * as S from './step-one.styled';
+import Stepper from "./components/stepper";
+
 
 function StepOne(): JSX.Element {
   return (
     <>
       <header>
-        <S.Stepper>
-          <S.StepperItem>
-            <h3 className="c-stepper__title">1</h3>
-          </S.StepperItem>
-          <S.StepperItem>
-            <h3 className="c-stepper__title">2</h3>
-          </S.StepperItem>
-          <S.StepperItem>
-            <h3 className="c-stepper__title">3</h3>
-          </S.StepperItem>
-        </S.Stepper>
+        <Stepper />
       </header>
       <section></section>
     </>
