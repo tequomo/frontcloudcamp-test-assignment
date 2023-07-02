@@ -4,7 +4,7 @@ import * as S from './stepper.styled';
 function Stepper(): JSX.Element {
   return (
     <>
-      {/* <S.Stepper>
+      <S.Stepper>
         <S.StepperItem>
           <h3 className="c-stepper__title">1</h3>
         </S.StepperItem>
@@ -14,8 +14,8 @@ function Stepper(): JSX.Element {
         <S.StepperItem>
           <h3 className="c-stepper__title">3</h3>
         </S.StepperItem>
-      </S.Stepper> */}
-      <S.MainContainer>
+      </S.Stepper>
+      {/* <S.MainContainer>
       <S.StepContainer>
         {[1, 2, 3].map((item) => (
           <S.StepWrapper>
@@ -28,7 +28,7 @@ function Stepper(): JSX.Element {
           </S.StepWrapper>
         ))}
       </S.StepContainer>
-    </S.MainContainer>
+    </S.MainContainer> */}
     </>
 
   );

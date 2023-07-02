@@ -4,7 +4,7 @@ const Stepper = styled.ol`
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  padding: 0 86px;
+  padding: 0;
   width: 100%;
   height: 48px;
 `;
@@ -26,14 +26,25 @@ const StepperItem = styled.li`
     border-radius: 50%;
     margin: 1rem auto 0;
     background-color: #A6A6A6;
+    transform: translateY(-25%);
   }
-  &:not(:last-child)::after {
+  &::after {
     content: "";
     position: relative;
     top: 1.5rem;
     left: 50%;
-    height: 2px;
+    height: 8px;
     background-color: #e0e0e0;
+    order: -1;
+  }
+  &:last-child::after {
+    content: "";
+    background-color: #e0e0e0;
+    width: 0;
+    position: relative;
+    top: 1.5rem;
+    left: 50%;
+    height: 8px;
     order: -1;
   }
 `;
@@ -41,7 +52,7 @@ const StepperItem = styled.li`
 
 const MainContainer = styled.div`
   width: 100%;
-  max-width: 600px;
+  max-width: 680px;
   margin: 0 auto;
   padding: 0 15px;
 `
