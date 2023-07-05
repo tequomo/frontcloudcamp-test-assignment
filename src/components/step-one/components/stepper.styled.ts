@@ -49,6 +49,9 @@ const StepperItem = styled.li`
   }
 `;
 
+const h3 = styled.h3`
+  position: relative;
+`;
 
 const MainContainer = styled.div`
   width: 100%;
@@ -115,4 +118,15 @@ const StepLabel = styled.span`
 `
 
 
-export { Stepper, StepperItem, StepCount, StepLabel, StepStyle,StepWrapper,StepsLabelContainer, MainContainer, StepContainer };
+export {
+  Stepper,
+  h3,
+  StepperItem,
+  StepCount,
+  StepLabel,
+  StepStyle,
+  StepWrapper,
+  StepsLabelContainer,
+  MainContainer,
+  StepContainer
+};
