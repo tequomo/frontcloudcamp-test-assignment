@@ -22,7 +22,7 @@ function SectionOne(): JSX.Element {
           </S.Wrapper>
           <S.Wrapper>
             <S.Label htmlFor="field-sex">Sex</S.Label>
-            <S.Select name="sex" id="field-sex">
+            <S.Select name="sex" id="field-sex" placeholder="Не выбрано">
               <option value="Man" id="field-sex-option-man">Man</option>
               <option value="Woman" id="field-sex-option-woman">Woman</option>
             </S.Select>
