@@ -1,7 +1,10 @@
 import { createReducer } from '@reduxjs/toolkit';
+import { MainFormData } from '../../../types/form-type';
 
 
-const initialState: MainData = {
+const initialState: MainFormData = {
+  Phone: 0,
+  Email: '',
 };
 
 
